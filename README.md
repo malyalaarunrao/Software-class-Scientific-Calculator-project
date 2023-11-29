@@ -47,6 +47,7 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self):
         self.assertEqual(self.calculator.logarithm(10), 2.302585092994046)
 
+#code2
     # Add additional scientific operations here
     def square_root(self, x):
         return x ** 0.5
