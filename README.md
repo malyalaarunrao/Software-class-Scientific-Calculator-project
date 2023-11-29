@@ -1,6 +1,6 @@
 # Software-class-Scientific-Calculator-project
 Git Usage and Calculator Implementation
-##code
+##project code
 
 class Calculator:
     def add(self, x, y):
@@ -30,10 +30,10 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.add(2, 3), 5)
 
     def test_subtract(self):
-        self.assertEqual(self.calculator.subtract(5, 2), 3)
+        self.assertEqual(self.calculator.subtract(4, 2), 2)
 
     def test_multiply(self):
-        self.assertEqual(self.calculator.multiply(4, 3), 12)
+        self.assertEqual(self.calculator.multiply(3, 3), 9)
 
     def test_divide(self):
         self.assertEqual(self.calculator.divide(6, 2), 3)
